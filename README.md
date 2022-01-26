@@ -14,11 +14,21 @@ Feel free to use your own IDE but this tutorial is for VS Code:
 
 - Install [VS Code](https://code.visualstudio.com/download), [Git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en/) and [Angular CLI](https://angular.io/cli)
 
+- In an (elevated) powershell run the command: ``` Set-ExecutionPolicy -ExecutionPolicy Unrestricted ```
+
 - Install the extension 'GitHub Pull Requests and Issues' for VS Code
 
-- Connect VS Code to your GitHub account and create a new branch from main.
+- In a terminal (powershell or VS Code) run the command ``` git config --global user.name "John Doe" ``` and the
+command ``` git config --global user.email johndoe@example.com ``` replacing 'John Doe' with your name/email
+
+- Connect VS Code to your GitHub account
+
+- Clone a repository from GitHub (using the url StanleyRoberts/AbyssImpact). Now you have checked out main, from this create and publish a new branch for you to work in.
 
 - Start coding! :)
+
+ **ONLY** commit and push changes to your own branch.
+ Create a pull request if you want those changes merged to main.
 
 &nbsp;
 
