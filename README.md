@@ -19,7 +19,7 @@ Feel free to use your own IDE but this tutorial is for VS Code:
 - Install the extension 'GitHub Pull Requests and Issues' for VS Code
 
 - In a terminal (powershell or VS Code) run the command ``` git config --global user.name "John Doe" ``` and the
-command ``` git config --global user.email johndoe@example.com ``` replacing 'John Doe' with your name/email
+command ``` git config --global user.email johndoe@example.com ``` replacing 'John Doe' with your name/email. Additionally run ```ng add @angular/material```
 
 - Connect VS Code to your GitHub account
 
