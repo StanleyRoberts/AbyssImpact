@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { NavmenuComponent } from './navmenu/navmenu.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -21,7 +20,6 @@ import { HomeComponent } from './home/home.component'
 @NgModule({
   declarations: [
     AppComponent,
-    NavmenuComponent,
     FooterComponent,
     CharacterCardComponent,
     CharactersComponent,
