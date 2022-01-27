@@ -2,7 +2,7 @@
 
 
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport>
+  <mat-sidenav #nav class="sidenav" fixedInViewport (click)="nav.toggle()">
     <mat-toolbar>
       <img
       width="40"
@@ -11,7 +11,7 @@
       />
       &nbsp;Abyss Impact</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#" [routerLink]="['/']">Home</a>
+      <a mat-list-item href="#" [routerLink]="['/home']">Home</a>
       <a mat-list-item href="#" [routerLink]="['/characters']">Characters</a>
       <a mat-list-item href="#">Teams</a>
     </mat-nav-list>
@@ -22,7 +22,7 @@
         type="button"
         aria-label="Toggle sidenav"
         mat-icon-button
-        (click)="drawer.toggle()">
+        (click)="nav.toggle()">
         <mat-icon aria-label="Side nav toggle icon">></mat-icon>
       </button>
     </mat-toolbar>
