@@ -7,34 +7,29 @@ body {
 flex: 1;
 }
 
-.toolbar {
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-height: 60px;
-display: flex;
-align-items: center;
-background-color: #242857;
-color: white;
-font-weight: 600;
-}
-
-.toolbar img {
+.footer img {
 margin: 0 16px;
 }
 
-.toolbar #twitter-logo {
+.footer #twitter-logo {
 height: 40px;
 margin: 0 8px;
 }
 
-.toolbar #youtube-logo {
+.footer #youtube-logo {
 height: 40px;
 margin: 0 16px;
 }
 
-.toolbar #twitter-logo:hover,
-.toolbar #youtube-logo:hover {
+.footer #twitter-logo:hover,
+.footer #youtube-logo:hover {
 opacity: 0.8;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
 }
