@@ -14,7 +14,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './footer/footer.component';
-import { CharacterCardComponent } from './character-card/character-card.component'
+import { CharacterCardComponent } from './character-card/character-card.component';
+import { CharactersComponent } from './characters/characters.component'
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { CharacterCardComponent } from './character-card/character-card.componen
     NavmenuComponent,
     FooterComponent,
     CharacterCardComponent,
+    CharactersComponent,
   ],
   imports: [
     MatCardModule,
