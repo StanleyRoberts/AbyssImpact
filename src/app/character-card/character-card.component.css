@@ -1,8 +1,8 @@
-.example-card {
+.card {
     max-width: 400px;
   }
   
-  .example-header-image {
+  .header-image {
     background-image: url('../../assets/favicon.png');
     background-size: cover;
   }
