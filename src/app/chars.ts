@@ -1,0 +1,15 @@
+import { Char } from './char';
+
+/**
+ * TODO #7 this should populate from a JSON file
+ */
+
+export const CHARS: Char[] = [
+    {
+        id: 1,
+        name: "Amber",
+        img: "assets/Character_Amber_Thumb.png",
+        desc: "A MainDPS who focuses on charged shots. Her low burst cooldown also allows her to support using \'Elegy of the End\"",
+        role: "MainDPS"
+    }
+];

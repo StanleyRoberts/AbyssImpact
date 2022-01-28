@@ -1,6 +1,17 @@
-<app-character-card></app-character-card>
 
-
-    <p>I am a dynamic component.</p>
-
-  
+<li *ngFor="let char of chars">
+    <app-character-card>
+        <p name>
+            {{char.name}}
+        </p>
+        <p role>
+            {{char.role}}
+        </p>
+        <p img>
+            <img src="../../{{char.img}}">
+        </p>
+        <p desc>
+            {{char.desc}}
+        </p>
+    </app-character-card>
+</li>

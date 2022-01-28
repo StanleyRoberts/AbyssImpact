@@ -15,7 +15,7 @@ import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './footer/footer.component';
 import { CharacterCardComponent } from './character-card/character-card.component';
 import { CharactersComponent } from './characters/characters.component';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { HomeComponent } from './home/home.component'
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
