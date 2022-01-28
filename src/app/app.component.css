@@ -22,8 +22,9 @@ z-index: 1;
 }
 
 .spacer {
-flex: 1;
-}
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
 .footer img {
 margin: 0 16px;
