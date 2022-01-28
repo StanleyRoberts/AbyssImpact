@@ -1,0 +1,53 @@
+body {
+    background-color: #726e6e;
+    color: black;
+}
+  
+.sidenav-container {
+    height: 100%;
+  }
+  
+.sidenav {
+width: 200px;
+}
+
+.sidenav .mat-toolbar {
+background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+position: sticky;
+top: 0;
+z-index: 1;
+}
+
+.spacer {
+flex: 1;
+}
+
+.footer img {
+margin: 0 16px;
+}
+
+.footer #twitter-logo {
+height: 40px;
+margin: 0 8px;
+}
+
+.footer #youtube-logo {
+height: 40px;
+margin: 0 16px;
+}
+
+.footer #twitter-logo:hover,
+.footer #youtube-logo:hover {
+opacity: 0.8;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
