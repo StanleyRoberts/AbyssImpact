@@ -21,11 +21,6 @@ top: 0;
 z-index: 1;
 }
 
-.spacer {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
 .footer img {
 margin: 0 16px;
 }

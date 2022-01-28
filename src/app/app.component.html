@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="app.component.css">
 
+<title>Abyss Impact</title>
 
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #nav class="sidenav" fixedInViewport (click)="nav.toggle()">
@@ -27,6 +28,7 @@
       </button>
     </mat-toolbar>
     <ng-container>
+      <span>{{ title }} app is running!</span>
       <router-outlet></router-outlet>  <!-- Content Loaded Here -->
     </ng-container>
   </mat-sidenav-content>
