@@ -4,6 +4,7 @@ import { Char } from './char';
  * TODO #7 this should populate from a JSON file
  */
 
+
 export const CHARS: Char[] = [
     {
         id: 1,
