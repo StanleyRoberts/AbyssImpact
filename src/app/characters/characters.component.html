@@ -1,21 +1,28 @@
-<link rel="stylesheet" href="characters.component.css">
-
-<h1><app-character-filter></app-character-filter></h1>
-<ul>
-    <li *ngFor="let char of chars">
-        <app-character-card>
-            <p name>
-                {{char.name}}
-            </p>
-            <p role>
-                {{char.role}}
-            </p>
-            <p img>
-                <img src="../../{{char.img}}">
-            </p>
-            <p desc>
-                {{char.desc}}
-            </p>
-        </app-character-card>
-    </li>
-</ul>
+<mat-button-toggle-group [formControl]="filter" multiple>
+    <mat-button-toggle value="MainDPS">MainDPS</mat-button-toggle>
+    <mat-button-toggle value="SubDPS">SubDPS</mat-button-toggle>
+    <mat-button-toggle value="Support">Support</mat-button-toggle>
+    <mat-button-toggle value="Shield">Shield</mat-button-toggle>
+    <mat-button-toggle value="Healer">Healer</mat-button-toggle>
+  </mat-button-toggle-group>
+  <p>Chosen values are {{filter.value}}</p>
+  <!-- // name="filter" aria-label="filter"-->
+  
+  <ul>
+      <li *ngFor="let char of filteredChars$ | async">
+          <app-character-card>
+              <p name>
+                  {{char.name}}
+              </p>
+              <p role>
+                  {{char.role}}
+              </p>
+              <p img>
+                  <img src="../../{{char.img}}">
+              </p>
+              <p desc>
+                  {{char.desc}}
+              </p>
+          </app-character-card>
+      </li>
+  </ul>

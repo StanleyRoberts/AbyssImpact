@@ -19,8 +19,6 @@ import { FooterComponent } from './footer/footer.component';
 import { CharacterCardComponent } from './character-card/character-card.component';
 import { CharactersComponent } from './characters/characters.component';
 import { HomeComponent } from './home/home.component';
-//import { CharacterGridComponent } from './character-grid/character-grid.component';
-import { CharacterFilterComponent } from './character-filter/character-filter.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +27,6 @@ import { CharacterFilterComponent } from './character-filter/character-filter.co
     CharacterCardComponent,
     CharactersComponent,
     HomeComponent,
-    //CharacterGridComponent,
-    CharacterFilterComponent,
   ],
   imports: [
     FormsModule,

@@ -1,9 +1,9 @@
-import { Char } from './../character-card/character-card.service';
+//import { Char } from './../character-card/character-card.service';
 
 /**
  * TODO #7 this should populate from a JSON file
  */
-
+/*
 export const CHARS: Char[] = [
     {
         id: 1,
@@ -19,4 +19,4 @@ export const CHARS: Char[] = [
         desc: "A support who outputs an incredible amount of healing, hydro application and solid damage",
         role: "Healer"
     }
-];
+];*/
