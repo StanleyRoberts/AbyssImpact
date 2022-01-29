@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { CHARS } from '../classes/chars';
-import { Char } from '../classes/char'
+import { CHARS } from './../characters/characters.service';
+import { Char } from './../character-card/character-card.service';
 
 @Component({
   selector: 'app-character-filter',
@@ -10,9 +10,9 @@ import { Char } from '../classes/char'
 })
 export class CharacterFilterComponent implements OnInit {
 
-  chars = CHARS
-
   filterSelected = new FormControl();
+
+  chars = CHARS
 
   constructor() { }
 

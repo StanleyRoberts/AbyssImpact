@@ -1,5 +1,7 @@
+import { CharacterCardComponent } from './../character-card/character-card.component';
 import { Component, OnInit } from '@angular/core';
-import { CHARS } from '../classes/chars';
+import { CHARS } from './characters.service';
+import { Char } from './../character-card/character-card.service';
 
 @Component({
   selector: 'app-characters',

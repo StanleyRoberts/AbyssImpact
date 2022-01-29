@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+/*import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CharacterGridComponent } from './character-grid.component';
 
@@ -22,4 +22,4 @@ describe('CharacterGridComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-});
+});*/
