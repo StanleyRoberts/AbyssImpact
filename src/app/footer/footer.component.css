@@ -2,9 +2,14 @@
 .footer{
     height: 50px;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     background-color: #242857;
     color: white;
     font-weight: 600;
+}
+    
+.footer #twitter-logo:hover, .footer #youtube-logo:hover {
+    opacity: 0.8;
 }
     
