@@ -1,4 +1,3 @@
-import { CharacterCardComponent } from './../character-card/character-card.component';
 import { Component, OnInit } from '@angular/core';
 import { Char } from './../character-card/character-card.service';
 import { FormControl } from '@angular/forms';
