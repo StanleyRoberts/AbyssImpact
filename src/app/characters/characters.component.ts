@@ -1,10 +1,9 @@
-import { CharacterCardComponent } from './../character-card/character-card.component';
 import { Component, OnInit } from '@angular/core';
-import { CHARS } from './characters.service';
 import { Char } from './../character-card/character-card.service';
 import { FormControl } from '@angular/forms';
 import { combineLatest, Observable, from } from 'rxjs';
 import { map } from 'rxjs/operators';
+import characters from '../../assets/data/character_data/characters.json'
 
 @Component({
   selector: 'app-characters',
@@ -14,20 +13,19 @@ import { map } from 'rxjs/operators';
 
 export class CharactersComponent implements OnInit {
 
+  chars: Char[] = characters
   chars$: Observable<Char>;
 
   filter: FormControl;
   filter$: Observable<Array<String>>;
   filteredChars$: Observable<Char[]>;
   
-  chars = CHARS
-  
 
   constructor() { 
-    this.chars$ = from(CHARS);
+    this.chars$ = from(this.chars);
     this.filter = new FormControl();
     this.filter$ = this.filter.valueChanges;
-    this.filteredChars$ = combineLatest(this.chars$, this.filter$).pipe(map(([character, filterval])=>CHARS.filter(char=>filterval.indexOf(char.role)>-1)));
+    this.filteredChars$ = combineLatest(this.chars$, this.filter$).pipe(map(([character, filterval])=>this.chars.filter(char=>filterval.indexOf(char.role)>-1)));
   }
 
   ngOnInit(): void {
