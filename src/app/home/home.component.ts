@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-declare function read(): any;
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -9,10 +7,8 @@ declare function read(): any;
 })
 export class HomeComponent implements OnInit {
 
-  thing;
 
   constructor() {
-    this.thing = read()
   }
 
   ngOnInit(): void {

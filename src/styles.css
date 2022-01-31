@@ -1,3 +1,6 @@
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
@@ -11,8 +14,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 * https://materialtheme.arcsine.dev
 * Fork at: https://materialtheme.arcsine.dev/?c=YHBhbGV0dGU$YHByaW1hcnk$YF48IzI0Mjg1NyIsIj9lcjwjYmRiZmNkIiwiO2VyPCMxNjE4M2N$LCIlPmBePCM3YzEyYmMiLCI~ZXI8I2Q4YjhlYiIsIjtlcjwjNWYwYWE1fiwid2Fybj5gXjwjN2EyNTJkIiwiP2VyPCNkN2JlYzAiLCI7ZXI8IzVkMTYxY34sIj9UZXh0PCMwMDAwMDAiLCI~PTwjZmFmYWZhIiwiO1RleHQ8I2ZmZmZmZiIsIjs9PCMyYzJjMmN$LCJmb250cz5bYEA8KC00fixgQDwoLTN$LGBAPCgtMn4sYEA8KC0xfixgQDxoZWFkbGluZX4sYEA8dGl0bGV$LGBAPHN1YiktMn4sYEA8c3ViKS0xfixgQDxib2R5LTJ$LGBAPGJvZHktMX4sYEA8YnV0dG9ufixgQDxjYXB0aW9ufixgQDxpbnB1dCIsInNpemU$bnVsbH1dLCJpY29uczxGaWxsZWQiLCI~bmVzcz5mYWxzZSwidmVyc2lvbj4xMX0=
 */
-@import 'https://fonts.googleapis.com/css?family=Material+Icons';
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
 .mat-badge-content {
   font-weight: 600;
   font-size: 12px; }

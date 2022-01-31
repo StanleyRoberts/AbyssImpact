@@ -30,7 +30,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/readJSON.js"
             ]
           },
           "configurations": {
@@ -99,7 +98,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/readJSON.js"
             ]
           }
         }

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CHARS } from '../classes/chars';
+import { Char } from '../classes/char';
 
+import characters from '../../assets/data/character_data/characters.json'
 
 
 @Component({
@@ -11,7 +13,8 @@ import { CHARS } from '../classes/chars';
 
 export class CharactersComponent implements OnInit {
 
-  chars = CHARS
+  //chars = CHARS
+  chars: Char[] = characters
 
   constructor() { }
 
