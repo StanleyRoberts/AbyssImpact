@@ -1,4 +1,3 @@
-import { FormControl } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -15,10 +14,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatChipsModule } from '@angular/material/chips'
+
 import { FooterComponent } from './footer/footer.component';
 import { CharacterCardComponent } from './character-card/character-card.component';
 import { CharactersComponent } from './characters/characters.component';
 import { HomeComponent } from './home/home.component';
+import { TeamCardComponent } from './team-card/team-card.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { HomeComponent } from './home/home.component';
     CharacterCardComponent,
     CharactersComponent,
     HomeComponent,
+    TeamCardComponent,
   ],
   imports: [
     FormsModule,

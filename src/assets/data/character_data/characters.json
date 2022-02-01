@@ -4,20 +4,20 @@
         "name": "Amber",
         "img": "assets/images/Character_Amber_Thumb.png",
         "desc": "A MainDPS who focuses on charged shots. Her low burst cooldown also allows her to support using 'Elegy of the End'",
-        "role": "MainDPS"
+        "roles": [{"role":"MainDPS", "priority": "primary"}, {"role":"Enabler", "priority":"primary"}]
     },
     {
         "id": 3,
         "name": "Ganyu",
         "img": "assets/images/Character_Amber_Thumb.png",
         "desc": "A MainDPS who focuses on charged shots. Her cryo damage increase also makes her a powerful support",
-        "role": "MainDPS"
+        "roles": [{"role":"MainDPS", "priority":"primary"}, {"role":"SubDPS", "priority":"primary"}]
     },
     {
         "id": 2,
         "name": "Kokomi",
         "img": "assets/images/Character_Sangonomiya_Kokomi_Thumb.png",
         "desc": "A support who outputs an incredible amount of healing, hydro application and solid damage",
-        "role": "Healer"
+        "roles": [{"role":"Healer","priority":"primary"}, {"role":"SubDPS","priority":"accent"}, {"role":"Enabler","priority":"primary"}]
     }
 ]

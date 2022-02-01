@@ -1,9 +1,8 @@
 <mat-button-toggle-group [formControl]="filter" multiple>
     <mat-button-toggle value="MainDPS">MainDPS</mat-button-toggle>
     <mat-button-toggle value="SubDPS">SubDPS</mat-button-toggle>
-    <mat-button-toggle value="Support">Support</mat-button-toggle>
-    <mat-button-toggle value="Shield">Shield</mat-button-toggle>
-    <mat-button-toggle value="Healer">Healer</mat-button-toggle>
+    <mat-button-toggle value="Enabler">Enabler</mat-button-toggle>
+    <mat-button-toggle value="Healer/Shield">Healer</mat-button-toggle>
   </mat-button-toggle-group>
   <p>Chosen values are {{filter.value}}</p>
   <!-- // name="filter" aria-label="filter"-->
@@ -15,7 +14,7 @@
                   {{char.name}}
               </p>
               <p role>
-                  {{char.role}}
+                  {{char.roles}}
               </p>
               <p img>
                   <img src="../../{{char.img}}">
