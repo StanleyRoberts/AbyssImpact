@@ -25,7 +25,13 @@ export class CharactersComponent implements OnInit {
     this.chars$ = from(this.chars);
     this.filter = new FormControl();
     this.filter$ = this.filter.valueChanges;
-    this.filteredChars$ = combineLatest(this.chars$, this.filter$).pipe(map(([character, filterval])=>this.chars.filter(char=>filterval.filter(val=>char.roles.map(function(x){return x.role;}).includes(val)).length>0)));
+     // i hate js: returns characters who have at least one role belonging to one filter
+    this.filteredChars$ = combineLatest([this.chars$, this.filter$])
+                          .pipe(map(([, filterval])=>this.chars
+                          .filter(char=>filterval.filter(val=>char.roles
+                          .map(function(x){return x.role;})
+                          .includes(val)).length>0)));
+    
   }
 
   ngOnInit(): void {
