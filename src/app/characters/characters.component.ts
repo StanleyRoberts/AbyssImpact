@@ -4,7 +4,6 @@ import { FormControl } from '@angular/forms';
 import { combineLatest, Observable, from } from 'rxjs';
 import { map } from 'rxjs/operators';
 import characters from '../../assets/data/character_data/characters.json'
-import { toPublicName } from '@angular/compiler/src/i18n/serializers/xmb';
 
 @Component({
   selector: 'app-characters',

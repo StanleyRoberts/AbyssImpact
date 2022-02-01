@@ -45,6 +45,7 @@ import { TeamCardComponent } from './team-card/team-card.component';
     MatIconModule,
     MatListModule,
     MatButtonToggleModule,
+    MatChipsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

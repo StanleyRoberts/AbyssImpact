@@ -14,7 +14,9 @@
                   {{char.name}}
               </p>
               <p role>
-                  {{char.roles}}
+                  <mat-chip-list class="role list">
+                      <mat-chip *ngFor="let chip of char.roles" selected [color]="chip.priority">{{chip.role}}</mat-chip>
+                  </mat-chip-list>
               </p>
               <p img>
                   <img src="../../{{char.img}}">
