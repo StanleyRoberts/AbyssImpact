@@ -1,4 +1,3 @@
-
 .footer{
     height: 50px;
     display: flex;
@@ -12,4 +11,8 @@
 .footer #twitter-logo:hover, .footer #youtube-logo:hover {
     opacity: 0.8;
 }
-    
+
+.spacer{
+    flex:1;
+    padding-left:10px;
+}
