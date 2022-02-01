@@ -1,8 +1,9 @@
-<mat-button-toggle-group [formControl]="filter" multiple> 
+<mat-button-toggle-group [formControl]="filter" multiple>
+    <!-- TODO #11 Invert button colours, so they appear selected by default; for more intuitive functionality -->
     <mat-button-toggle value="MainDPS">MainDPS</mat-button-toggle>
     <mat-button-toggle value="SubDPS">SubDPS</mat-button-toggle>
     <mat-button-toggle value="Enabler">Enabler</mat-button-toggle>
-    <mat-button-toggle value="Healer/Shield">Healer</mat-button-toggle>
+    <mat-button-toggle value="Healer">Healer/Shield</mat-button-toggle>
   </mat-button-toggle-group>
   <p>Chosen values are {{filter.value}}</p>
   <!-- // name="filter" aria-label="filter"-->
