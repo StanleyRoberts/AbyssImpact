@@ -5,8 +5,6 @@
     <mat-button-toggle value="Enabler">Enabler</mat-button-toggle>
     <mat-button-toggle value="Healer">Healer/Shield</mat-button-toggle>
   </mat-button-toggle-group>
-  <p>Chosen values are {{filter.value}}</p>
-  <!-- // name="filter" aria-label="filter"-->
   
   <ul>
       <li *ngFor="let char of filteredChars$ | async">
