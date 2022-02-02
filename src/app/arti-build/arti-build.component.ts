@@ -21,13 +21,10 @@ export class ArtiBuildComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.charId)
-    console.log(this.teamId)
-      this.map = mapping.filter(ele => {return ele.charID==this.charId && ele.teamID==this.teamId})[0]
-      console.log(this.map)
-      this.arti = artifacts.filter(ele => {return ele.id==this.map.artifactID})[0]
-      this.wep1 = weapons.filter(ele => {return ele.id==this.map.five_wepID})[0]
-      this.wep2 = weapons.filter(ele => {return ele.id==this.map.four_wepID})[0]
+    this.map = mapping.filter(ele => {return ele.charID==this.charId && ele.teamID==this.teamId})[0]
+    this.arti = artifacts.filter(ele => {return ele.id==this.map.artifactID})[0]
+    this.wep1 = weapons.filter(ele => {return ele.id==this.map.five_wepID})[0]
+    this.wep2 = weapons.filter(ele => {return ele.id==this.map.four_wepID})[0]
   }
 
 }

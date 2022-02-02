@@ -3,6 +3,7 @@
         "teamID": 1,
         "charID": 2,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -10,6 +11,7 @@
         "teamID": 1,
         "charID": 3,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -17,6 +19,7 @@
         "teamID": 1,
         "charID": 5,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -24,6 +27,7 @@
         "teamID": 1,
         "charID": 7,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -31,6 +35,7 @@
         "teamID": 1,
         "charID": 6,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -38,6 +43,7 @@
         "teamID": 2,
         "charID": 1,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -45,6 +51,7 @@
         "teamID": 2,
         "charID": 2,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -52,6 +59,7 @@
         "teamID": 2,
         "charID": 5,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -59,6 +67,7 @@
         "teamID": 2,
         "charID": 7,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -66,6 +75,7 @@
         "teamID": 2,
         "charID": 6,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -73,6 +83,7 @@
         "teamID": 2,
         "charID": 3,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
@@ -80,6 +91,7 @@
         "teamID": 2,
         "charID": 4,
         "artifactID": 1,
+        "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     }
