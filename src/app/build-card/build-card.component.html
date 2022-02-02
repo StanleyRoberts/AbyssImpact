@@ -1,21 +1,19 @@
-<mat-card class="example-card">
+<mat-card class="card">
     <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>
-        <mat-form-field appearance="fill">
-            <mat-label>Amber</mat-label>
-            <mat-select [(value)]="selectedChar">
-            <mat-option></mat-option>
-            <mat-option [value]="option.id" *ngFor="let option of chars">{{ option.name }}</mat-option>
-            </mat-select>
-        </mat-form-field>
+        <form [formGroup]="form">
+          <mat-form-field appearance="fill">
+              <mat-select [formControl]="selectedChar">
+              <mat-option [value]="option" *ngFor="let option of chars">{{ option.name }}</mat-option>
+              </mat-select>
+          </mat-form-field>
+        </form>
       </mat-card-title>
-      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <img mat-card-image src="../../{{selectedChar.value.img}}">
     <mat-card-content>
       <p>
         Artifacts here
       </p>
     </mat-card-content>
-  </mat-card>
+</mat-card>

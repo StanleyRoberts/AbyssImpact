@@ -7,17 +7,46 @@
         "roles": [{"role":"MainDPS", "priority": "primary"}, {"role":"Enabler", "priority":"primary"}]
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Ganyu",
-        "img": "assets/images/Character_Amber_Thumb.png",
+        "img": "assets/images/Character_Ganyu_Thumb.png",
         "desc": "A MainDPS who focuses on charged shots. Her cryo damage increase also makes her a powerful support",
         "roles": [{"role":"MainDPS", "priority":"primary"}, {"role":"SubDPS", "priority":"primary"}]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Kokomi",
         "img": "assets/images/Character_Sangonomiya_Kokomi_Thumb.png",
         "desc": "A support who outputs an incredible amount of healing, hydro application and solid damage",
         "roles": [{"role":"Healer","priority":"primary"}, {"role":"SubDPS","priority":"accent"}, {"role":"Enabler","priority":"primary"}]
+    },
+    {
+        "id": 4,
+        "name": "Zhongli",
+        "img": "assets/images/Character_Zhongli_Thumb.png",
+        "desc": "Provides a near-invulnerable shield and decent damage and CC",
+        "roles": [{"role":"Healer","priority":"primary"}, {"role":"SubDPS","priority":"accent"}]
+    },
+    {
+        "id": 5,
+        "name": "Shenhe",
+        "img": "assets/images/Character_Shenhe_Thumb.png",
+        "desc": "A subDPS with solid damage buffs",
+        "roles": [{"role":"SubDPS","priority":"primary"}, {"role":"Enabler","priority":"primary"}]
+    },
+    {
+        "id": 6,
+        "name": "Kazuha",
+        "img": "assets/images/Character_Kaedehara_Kazuha_Thumb.png",
+        "desc": "A supporting character with massive elemental damage buffs",
+        "roles": [{"role":"Enabler","priority":"primary"}]
+    },
+    
+    {
+        "id": 7,
+        "name": "Rosaria",
+        "img": "assets/images/Character_Rosaria_Thumb.png",
+        "desc": "A subDPS with solid cryo application. Also makes a decent trigger for reverse melt",
+        "roles": [{"role":"SubDPS","priority":"primary"}, {"role":"Enabler","priority":"primary"}, {"role":"MainDPS", "priority":"accent"}]
     }
 ]

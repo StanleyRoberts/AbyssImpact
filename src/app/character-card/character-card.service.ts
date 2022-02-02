@@ -1,5 +1,3 @@
-import { ThemePalette } from "@angular/material/core";
-
 export interface Char {
     id: number;
     name: string;

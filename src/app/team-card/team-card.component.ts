@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import teams from '../../assets/data/team_data/teams.json'
+import { Team } from './team-card.service';
 
 @Component({
   selector: 'app-team-card',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamCardComponent implements OnInit {
   panelOpenState = false;
+  teamList: Team[] = teams
 
   constructor() { }
 

@@ -1,17 +1,20 @@
-<mat-accordion>
+<mat-accordion *ngFor="let team of teamList">
     <mat-expansion-panel>
       <mat-expansion-panel-header>
         <mat-panel-title>
-          Freeze
+          {{team.name}}
         </mat-panel-title>
         <mat-panel-description>
-          <img src="../../assets/images/Character_Amber_Thumb.png" class="icon">
-          <img src="../../assets/images/Character_Sangonomiya_Kokomi_Thumb.png" class="icon">
+          <mat-chip-list class="role list">
+              <mat-chip *ngFor="let chip of team.tags" selected color="accent">{{chip}}</mat-chip>
+          </mat-chip-list>
         </mat-panel-description>
       </mat-expansion-panel-header>
-      <p>
-        <img src="../../assets/images/Character_Amber_Thumb.png">
-        <img src="../../assets/images/Character_Sangonomiya_Kokomi_Thumb.png">
-      </p>
+      <mat-list class="inline-list">
+        <app-build-card [ID]="team.slot1"></app-build-card>
+        <app-build-card [ID]="team.slot2"></app-build-card>
+        <app-build-card [ID]="team.slot3"></app-build-card>
+        <app-build-card [ID]="team.slot4"></app-build-card>
+      </mat-list>
     </mat-expansion-panel>
 </mat-accordion>
