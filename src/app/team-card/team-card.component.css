@@ -10,3 +10,11 @@
 .mat-list-base.inline-list {
     display: flex;
 }
+
+.mat-accordion {
+    padding: 1%;
+}
+
+.vert {
+    display:flexbox;
+}

@@ -24,6 +24,7 @@ import { CharactersComponent } from './characters/characters.component';
 import { HomeComponent } from './home/home.component';
 import { TeamCardComponent } from './team-card/team-card.component';
 import { BuildCardComponent } from './build-card/build-card.component';
+import { ArtiBuildComponent } from './arti-build/arti-build.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { BuildCardComponent } from './build-card/build-card.component';
     HomeComponent,
     TeamCardComponent,
     BuildCardComponent,
+    ArtiBuildComponent,
   ],
   imports: [
     FormsModule,

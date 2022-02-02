@@ -10,7 +10,7 @@ import { Char } from '../character-card/character-card.service';
 })
 export class BuildCardComponent implements OnInit {
   public form!: FormGroup;
-  @Input('ID') charIds!: number[]; 
+  @Input('IDpair') charIds!: number[][];
   chars!: Char[];
 
   selectedChar!: FormControl;
@@ -19,7 +19,7 @@ export class BuildCardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.chars = characters.filter(ele => {return this.charIds.includes(ele.id)});
+    this.chars = characters.filter(ele => {return this.charIds.map(function(x){return x[0];}).includes(ele.id)});
     this.selectedChar = new FormControl(this.chars[0]);
     this.form = new FormGroup({char: this.selectedChar});
   }

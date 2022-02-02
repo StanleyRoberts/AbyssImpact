@@ -23,7 +23,7 @@ command ``` git config --global user.email johndoe@example.com ``` replacing 'Jo
 
 - Connect VS Code to your GitHub account
 
-- Clone a repository from GitHub (using the url StanleyRoberts/AbyssImpact). Now you have checked out main, from this create and publish a new branch for you to work in.
+- Clone a repository from GitHub (using the url ```https://github.com/StanleyRoberts/AbyssImpact```). Now you have checked out main, from this create and publish a new branch for you to work in.
 
 - Start coding! :)
 
