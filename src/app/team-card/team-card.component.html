@@ -11,10 +11,10 @@
         </mat-panel-description>
       </mat-expansion-panel-header>
       <mat-list class="inline-list">
-        <app-build-card [IDpair]="team.slot1"></app-build-card>
-        <app-build-card [IDpair]="team.slot2"></app-build-card>
-        <app-build-card [IDpair]="team.slot3"></app-build-card>
-        <app-build-card [IDpair]="team.slot4"></app-build-card>
+        <app-build-card [ID]="team.slot1" [teamID]="team.id"></app-build-card>
+        <app-build-card [ID]="team.slot2" [teamID]="team.id"></app-build-card>
+        <app-build-card [ID]="team.slot3" [teamID]="team.id"></app-build-card>
+        <app-build-card [ID]="team.slot4" [teamID]="team.id"></app-build-card>
         <div class="vert">
           <h1>&nbsp;Description</h1>
           &nbsp;&nbsp;{{team.desc}}
