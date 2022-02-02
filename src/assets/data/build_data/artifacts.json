@@ -1,3 +1,8 @@
 [
-    {"id":1, "name":"Wanderer's Troupe", "img":"assets/images/Item_Troupes_Dawnlight.png"}
+    {"id":1, "name":"Wanderer's Troupe", "img":"assets/images/Item_Troupes_Dawnlight.png"},
+    {"id":2, "name":"Noblesse Oblige", "img":"assets/images/Item_Royal_Flora.png"},
+    {"id":3, "name":"Blizzard Strayer", "img":"assets/images/Item_Snowswept_Memory.png"},
+    {"id":4, "name":"Ocean-Hued Clam", "img":"assets/images/Item_Sea-Dyed_Blossom.png"},
+    {"id":5, "name":"Tenacity of the Millelith", "img":"assets/images/Item_Flower_of_Accolades.png"},
+    {"id":6, "name":"Viridescent Venerer", "img":"assets/images/Item_In_Remembrance_of_Viridescent_Fields.png"}
 ]

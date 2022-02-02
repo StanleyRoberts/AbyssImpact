@@ -1,4 +1,12 @@
 [
-    {"id": 1, "name": "Amos Bow", "img": "assets/images/Weapon_Amos_Bow_Wish.png"},
-    {"id": 2, "name": "Prototype Crescent", "img": "assets/images/Weapon_Prototype_Crescent_Wish.png"}
+    {"id": 1, "name": "Amos Bow", "img": "assets/images/Weapon_Amos'_Bow.png"},
+    {"id": 2, "name": "Prototype Crescent", "img": "assets/images/Weapon_Prototype_Crescent.png"},
+    {"id": 3, "name": "Everlasting Moonglow", "img": "assets/images/Weapon_Everlasting_Moonglow.png"},
+    {"id": 4, "name": "Prototype Amber", "img": "assets/images/Weapon_Prototype_Amber.png"},
+    {"id": 5, "name": "Staff of Homa", "img": "assets/images/Weapon_Staff_of_Homa.png"},
+    {"id": 6, "name": "\"The Catch\"", "img": "assets/images/Weapon_The_Catch.png"},
+    {"id": 7, "name": "Calamity Queller", "img": "assets/images/Weapon_Calamity_Queller.png"},
+    {"id": 8, "name": "Favonius Lance", "img": "assets/images/Weapon_Favonius_Lance.png"},
+    {"id": 9, "name": "Freedom Sworn", "img": "assets/images/Weapon_Freedom-Sworn.png"},
+    {"id": 10, "name": "Iron Sting", "img": "assets/images/Weapon_Iron_Sting.png"}
 ]

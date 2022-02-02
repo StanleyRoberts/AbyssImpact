@@ -2,47 +2,53 @@
     {
         "teamID": 1,
         "charID": 2,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
+        "arti_twoID": 3,
+        "arti_fourID": 3,
+        "artifactStat": "Atk%/Cryo DMG/CritDMG",
         "five_wepID": 1,
         "four_wepID": 2
     },
     {
         "teamID": 1,
         "charID": 3,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
-        "five_wepID": 1,
-        "four_wepID": 2
+        "arti_twoID": 4,
+        "arti_fourID": 4,
+        "artifactStat": "HP%/Hydro DMG/Healing Bonus",
+        "five_wepID": 3,
+        "four_wepID": 4
     },
     {
         "teamID": 1,
         "charID": 5,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
-        "five_wepID": 1,
-        "four_wepID": 2
+        "arti_twoID": 2,
+        "arti_fourID": 2,
+        "artifactStat": "Atk%/Atk%/Atk%",
+        "five_wepID": 7,
+        "four_wepID": 8
     },
     {
         "teamID": 1,
         "charID": 7,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
-        "five_wepID": 1,
-        "four_wepID": 2
+        "arti_twoID": 2,
+        "arti_fourID": 3,
+        "artifactStat": "Atk%/Cryo DMG/Crit",
+        "five_wepID": 5,
+        "four_wepID": 6
     },
     {
         "teamID": 1,
         "charID": 6,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
-        "five_wepID": 1,
-        "four_wepID": 2
+        "arti_twoID": 6,
+        "arti_fourID": 6,
+        "artifactStat": "EM/EM/EM",
+        "five_wepID": 9,
+        "four_wepID": 10
     },
     {
         "teamID": 2,
         "charID": 1,
-        "artifactID": 1,
+        "arti_twoID": 1,
+        "arti_fourID": 1,
         "artifactStat": "Atk%/Pyro DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
@@ -50,49 +56,55 @@
     {
         "teamID": 2,
         "charID": 2,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
+        "arti_twoID": 2,
+        "arti_fourID": 3,
+        "artifactStat": "Atk%/Cryo DMG/Crit",
         "five_wepID": 1,
         "four_wepID": 2
     },
     {
         "teamID": 2,
         "charID": 5,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
-        "five_wepID": 1,
-        "four_wepID": 2
+        "arti_twoID": 2,
+        "arti_fourID": 2,
+        "artifactStat": "Atk%/Atk%/Atk%",
+        "five_wepID": 7,
+        "four_wepID": 8
     },
     {
         "teamID": 2,
         "charID": 7,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
-        "five_wepID": 1,
-        "four_wepID": 2
+        "arti_twoID": 2,
+        "arti_fourID": 3,
+        "artifactStat": "Atk%/Cryo DMG/Crit",
+        "five_wepID": 5,
+        "four_wepID": 6
     },
     {
         "teamID": 2,
         "charID": 6,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
-        "five_wepID": 1,
-        "four_wepID": 2
+        "arti_twoID": 6,
+        "arti_fourID": 6,
+        "artifactStat": "EM/EM/EM",
+        "five_wepID": 9,
+        "four_wepID": 10
     },
     {
         "teamID": 2,
         "charID": 3,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
-        "five_wepID": 1,
-        "four_wepID": 2
+        "arti_twoID": 4,
+        "arti_fourID": 4,
+        "artifactStat": "HP%/Hydro DMG/Healing Bonus",
+        "five_wepID": 3,
+        "four_wepID": 4
     },
     {
         "teamID": 2,
         "charID": 4,
-        "artifactID": 1,
-        "artifactStat": "Atk%/Pyro DMG/Crit",
-        "five_wepID": 1,
-        "four_wepID": 2
+        "arti_twoID": 5,
+        "arti_fourID": 5,
+        "artifactStat": "HP%/Geo Dmg/Crit",
+        "five_wepID": 5,
+        "four_wepID": 6
     }
 ]

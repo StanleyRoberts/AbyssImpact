@@ -5,5 +5,8 @@
     <div style="font-size: 2em;">★:</div> <img src="../../{{wep2.img}}" class="icon"> {{wep2.name}}
 </div>
 <div class="common">
-    <img src="../../{{arti.img}}" class="icon"> <div class="vert"><b>{{arti.name}}</b><br>{{map.artifactStat}}</div>
+    <mat-list *ngFor="let art of arti">
+    <img src="../../{{art.img}}" class="icon"> <b class="cent"><br>{{art.name}}</b>
+    </mat-list>
+    {{map.artifactStat}}
 </div>

@@ -13,7 +13,8 @@ export interface Weapon {
 export interface BuildMap {
     teamID: number;
     charID: number;
-    artifactID: number;
+    arti_twoID: number;
+    arti_fourID: number;
     artifactStat: string;
     five_wepID: number;
     four_wepID: number;

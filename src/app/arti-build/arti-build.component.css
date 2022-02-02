@@ -27,8 +27,6 @@
     align-items: center;
 }
 
-.vert {
-    display:flexbox;
-    text-align: center;
-    padding-left: 10px;
+.cent {
+    text-align: left;
 }
