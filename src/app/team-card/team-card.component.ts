@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./team-card.component.css']
 })
 export class TeamCardComponent implements OnInit {
+  panelOpenState = false;
 
   constructor() { }
 

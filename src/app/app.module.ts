@@ -15,12 +15,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatChipsModule } from '@angular/material/chips'
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatSelectModule } from '@angular/material/select';
 
 import { FooterComponent } from './footer/footer.component';
 import { CharacterCardComponent } from './character-card/character-card.component';
 import { CharactersComponent } from './characters/characters.component';
 import { HomeComponent } from './home/home.component';
 import { TeamCardComponent } from './team-card/team-card.component';
+import { BuildCardComponent } from './build-card/build-card.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +33,7 @@ import { TeamCardComponent } from './team-card/team-card.component';
     CharactersComponent,
     HomeComponent,
     TeamCardComponent,
+    BuildCardComponent,
   ],
   imports: [
     FormsModule,
@@ -46,6 +50,8 @@ import { TeamCardComponent } from './team-card/team-card.component';
     MatListModule,
     MatButtonToggleModule,
     MatChipsModule,
+    MatExpansionModule,
+    MatSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
