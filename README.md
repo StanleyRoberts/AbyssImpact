@@ -19,11 +19,11 @@ Feel free to use your own IDE but this tutorial is for VS Code:
 - Install the extension 'GitHub Pull Requests and Issues' for VS Code
 
 - In a terminal (powershell or VS Code) run the command ``` git config --global user.name "John Doe" ``` and the
-command ``` git config --global user.email johndoe@example.com ``` replacing 'John Doe' with your name/email. Additionally run ```ng add @angular/material```
+command ``` git config --global user.email johndoe@example.com ``` replacing 'John Doe' with your name/email.
 
 - Connect VS Code to your GitHub account
 
-- Clone a repository from GitHub (using the url StanleyRoberts/AbyssImpact). Now you have checked out main, from this create and publish a new branch for you to work in.
+- Clone a repository from GitHub (using the url StanleyRoberts/AbyssImpact). Now you have checked out main, from this create and publish a new branch for you to work in. And finally run ```ng add @angular/material``` in the VS Code terminal.
 
 - Start coding! :)
 
