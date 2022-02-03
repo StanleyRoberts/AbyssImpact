@@ -18,7 +18,6 @@ import { MatChipsModule } from '@angular/material/chips'
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSelectModule } from '@angular/material/select';
 
-import { FooterComponent } from './footer/footer.component';
 import { CharacterCardComponent } from './character-card/character-card.component';
 import { CharactersComponent } from './characters/characters.component';
 import { HomeComponent } from './home/home.component';
@@ -29,7 +28,6 @@ import { ArtiBuildComponent } from './arti-build/arti-build.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
     CharacterCardComponent,
     CharactersComponent,
     HomeComponent,
