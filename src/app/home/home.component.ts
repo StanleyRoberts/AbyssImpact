@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+/** The app home page */
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -7,10 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-
+  /** called on construction */
   constructor() {
   }
 
+  /** called on load */
   ngOnInit(): void {
   }
 

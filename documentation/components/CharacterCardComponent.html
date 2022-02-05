@@ -68,6 +68,13 @@
 </p>
 
 
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Provides a view of a character with details</p>
+
+    </p>
 
 
     <p class="comment">
@@ -160,10 +167,16 @@
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/app/character-card/character-card.component.ts:8</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/character-card/character-card.component.ts:12</a></div>
                             </td>
                         </tr>
 
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>called on construction</p>
+</div>
+                    </td>
+                </tr>
             </tbody>
         </table>
 </section>
@@ -197,14 +210,16 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="12"
-                            class="link-to-prism">src/app/character-card/character-card.component.ts:12</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="18"
+                            class="link-to-prism">src/app/character-card/character-card.component.ts:18</a></div>
                 </td>
             </tr>
 
 
             <tr>
                 <td class="col-md-4">
+                    <div class="io-description"><p>called on load</p>
+</div>
 
                     <div class="io-description">
                         <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
@@ -222,6 +237,10 @@
     <div class="tab-pane fade  tab-source-code" id="c-source">
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
 
+/**
+ * Provides a view of a character with details
+ */
+
 @Component({
   selector: &#x27;app-character-card&#x27;,
   templateUrl: &#x27;./character-card.component.html&#x27;,
@@ -229,8 +248,10 @@
 })
 export class CharacterCardComponent implements OnInit {
 
+  /** called on construction */
   constructor() { }
 
+  /** called on load */
   ngOnInit(): void {
   }
 

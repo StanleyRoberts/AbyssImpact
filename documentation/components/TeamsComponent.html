@@ -68,6 +68,13 @@
 </p>
 
 
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Generates and displays a list of teams</p>
+
+    </p>
 
 
     <p class="comment">
@@ -177,10 +184,16 @@
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/teams/teams.component.ts:12</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/teams/teams.component.ts:17</a></div>
                             </td>
                         </tr>
 
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>called on construction</p>
+</div>
+                    </td>
+                </tr>
             </tbody>
         </table>
 </section>
@@ -214,14 +227,16 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="16"
-                            class="link-to-prism">src/app/teams/teams.component.ts:16</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="23"
+                            class="link-to-prism">src/app/teams/teams.component.ts:23</a></div>
                 </td>
             </tr>
 
 
             <tr>
                 <td class="col-md-4">
+                    <div class="io-description"><p>called on load</p>
+</div>
 
                     <div class="io-description">
                         <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
@@ -255,10 +270,16 @@
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/teams/teams.component.ts:11</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/teams/teams.component.ts:15</a></div>
                         </td>
                     </tr>
 
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Determines if a team is open</p>
+</div>
+                </td>
+            </tr>
 
         </tbody>
     </table>
@@ -286,10 +307,16 @@
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/teams/teams.component.ts:12</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/teams/teams.component.ts:17</a></div>
                         </td>
                     </tr>
 
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>List of teams to show</p>
+</div>
+                </td>
+            </tr>
 
         </tbody>
     </table>
@@ -303,17 +330,24 @@
 import teams from &#x27;../../assets/data/team_data/teams.json&#x27;
 import { Team } from &#x27;./teams.service&#x27;;
 
+/** Generates and displays a list of teams */
+
 @Component({
   selector: &#x27;app-teams&#x27;,
   templateUrl: &#x27;./teams.component.html&#x27;,
   styleUrls: [&#x27;./teams.component.css&#x27;]
 })
+
 export class TeamsComponent implements OnInit {
+  /** Determines if a team is open */
   panelOpenState &#x3D; false;
+  /** List of teams to show */
   teamList: Team[] &#x3D; teams
 
+  /** called on construction */
   constructor() { }
 
+  /** called on load */
   ngOnInit(): void {
   }
 

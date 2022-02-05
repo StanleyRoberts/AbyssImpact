@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+/**
+ * Provides a view of a character with details
+ */
+
 @Component({
   selector: 'app-character-card',
   templateUrl: './character-card.component.html',
@@ -7,8 +11,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CharacterCardComponent implements OnInit {
 
+  /** called on construction */
   constructor() { }
 
+  /** called on load */
   ngOnInit(): void {
   }
 

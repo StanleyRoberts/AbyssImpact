@@ -68,6 +68,13 @@
 </p>
 
 
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Gets and displays the artifact/weapon build for the given character/team</p>
+
+    </p>
 
 
     <p class="comment">
@@ -203,10 +210,16 @@
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/arti-build/arti-build.component.ts:23</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/arti-build/arti-build.component.ts:34</a></div>
                             </td>
                         </tr>
 
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>called for construction</p>
+</div>
+                    </td>
+                </tr>
             </tbody>
         </table>
 </section>
@@ -229,9 +242,15 @@
                 </tr>
                         <tr>
                             <td class="col-md-2" colspan="2">
-                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/arti-build/arti-build.component.ts:17</a></div>
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/arti-build/arti-build.component.ts:23</a></div>
                             </td>
                         </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>The currently selected character</p>
+</div>
+                    </td>
+                </tr>
             </tbody>
         </table>
         <table class="table table-sm table-bordered">
@@ -250,9 +269,15 @@
                 </tr>
                         <tr>
                             <td class="col-md-2" colspan="2">
-                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/arti-build/arti-build.component.ts:18</a></div>
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/arti-build/arti-build.component.ts:25</a></div>
                             </td>
                         </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>The teams ID (to get the correct build for character)</p>
+</div>
+                    </td>
+                </tr>
             </tbody>
         </table>
 </section>
@@ -284,14 +309,17 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="27"
-                            class="link-to-prism">src/app/arti-build/arti-build.component.ts:27</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="43"
+                            class="link-to-prism">src/app/arti-build/arti-build.component.ts:43</a></div>
                 </td>
             </tr>
 
 
             <tr>
                 <td class="col-md-4">
+                    <div class="io-description"><p>After page load, update the character build and then subscribes to
+FormControl changes to update the character build when changed</p>
+</div>
 
                     <div class="io-description">
                         <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
@@ -321,14 +349,16 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="32"
-                            class="link-to-prism">src/app/arti-build/arti-build.component.ts:32</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="54"
+                            class="link-to-prism">src/app/arti-build/arti-build.component.ts:54</a></div>
                 </td>
             </tr>
 
 
             <tr>
                 <td class="col-md-4">
+                    <div class="io-description"><p>Updates the artifacts and weapons whenever a new character is selected</p>
+</div>
 
                     <div class="io-description">
                         <b>Parameters :</b>
@@ -339,6 +369,7 @@
                                     <td>Name</td>
                                     <td>Type</td>
                                     <td>Optional</td>
+                                    <td>Description</td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -353,6 +384,12 @@
                                     </td>
 
 
+                                    <td>
+                                        <ul>
+<li>The new character to get artifacts/weapons for</li>
+</ul>
+
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -395,10 +432,16 @@
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/arti-build/arti-build.component.ts:21</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/arti-build/arti-build.component.ts:30</a></div>
                         </td>
                     </tr>
 
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The artifact(s) for the current character build</p>
+</div>
+                </td>
+            </tr>
 
         </tbody>
     </table>
@@ -421,10 +464,16 @@
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/arti-build/arti-build.component.ts:19</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/arti-build/arti-build.component.ts:27</a></div>
                         </td>
                     </tr>
 
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The current character-&gt;team-&gt;build mapping</p>
+</div>
+                </td>
+            </tr>
 
         </tbody>
     </table>
@@ -447,10 +496,16 @@
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/arti-build/arti-build.component.ts:22</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/arti-build/arti-build.component.ts:32</a></div>
                         </td>
                     </tr>
 
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The 5* weapon for the current character build</p>
+</div>
+                </td>
+            </tr>
 
         </tbody>
     </table>
@@ -473,10 +528,16 @@
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/arti-build/arti-build.component.ts:23</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/arti-build/arti-build.component.ts:34</a></div>
                         </td>
                     </tr>
 
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>The 4* weapon for the current character build</p>
+</div>
+                </td>
+            </tr>
 
         </tbody>
     </table>
@@ -494,6 +555,10 @@ import { Artifact, BuildMap, Weapon } from &#x27;./arti-build.service&#x27;;
 import { FormControl } from &#x27;@angular/forms&#x27;;
 import { Char } from &#x27;../character-card/character-card.service&#x27;;
 
+/**
+ * Gets and displays the artifact/weapon build for the given character/team
+ */
+
 @Component({
   selector: &#x27;app-arti-build&#x27;,
   templateUrl: &#x27;./arti-build.component.html&#x27;,
@@ -502,21 +567,39 @@ import { Char } from &#x27;../character-card/character-card.service&#x27;;
 
 
 export class ArtiBuildComponent implements OnInit {
+
+  /** The currently selected character */
   @Input(&#x27;char&#x27;) char!: FormControl;
+  /** The teams ID (to get the correct build for character) */
   @Input(&#x27;teamID&#x27;) teamId!: number;
+  /** The current character-&gt;team-&gt;build mapping */
   map!: BuildMap;
 
+  /** The artifact(s) for the current character build */
   arti!: Set&lt;Artifact&gt;;
+  /** The 5* weapon for the current character build */
   wep1!: Weapon;
+  /** The 4* weapon for the current character build */
   wep2!: Weapon;
 
+  /** called for construction */
   constructor() { }
 
+  /**
+   * After page load, update the character build and then subscribes to 
+   * FormControl changes to update the character build when changed
+   */
   ngOnInit(): void {
     this.update(this.char.value)
 
     this.char.valueChanges.subscribe(x&#x3D;&gt;{this.update(x)})
   }
+
+  /**
+   * Updates the artifacts and weapons whenever a new character is selected
+   * 
+   * @param cur - The new character to get artifacts/weapons for
+   */
   update(cur: Char) {
     this.map &#x3D; mapping.filter(ele &#x3D;&gt; {return ele.charID&#x3D;&#x3D;cur.id &amp;&amp; ele.teamID&#x3D;&#x3D;this.teamId})[0]
     this.arti &#x3D; new Set(artifacts.filter(ele &#x3D;&gt; {return ele.id&#x3D;&#x3D;this.map.arti_twoID}).concat(artifacts.filter(ele &#x3D;&gt; {return ele.id&#x3D;&#x3D;this.map.arti_fourID})))

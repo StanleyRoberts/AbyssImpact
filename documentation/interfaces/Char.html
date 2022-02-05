@@ -69,6 +69,13 @@
         </p>
 
 
+            <p class="comment">
+                <h3>Description</h3>
+            </p>
+            <p class="comment">
+                <p>An interface representing a character</p>
+
+            </p>
 
 
         <section>
@@ -155,6 +162,12 @@
 
 
 
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-description"><p>Character description</p>
+</div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                     <table class="table table-sm table-bordered">
@@ -188,6 +201,12 @@
 
 
 
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-description"><p>Unique character identifier</p>
+</div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                     <table class="table table-sm table-bordered">
@@ -221,6 +240,12 @@
 
 
 
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-description"><p>Relative path to character image</p>
+</div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                     <table class="table table-sm table-bordered">
@@ -254,6 +279,12 @@
 
 
 
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-description"><p>Character name</p>
+</div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                     <table class="table table-sm table-bordered">
@@ -287,6 +318,12 @@
 
 
 
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-description"><p>List of roles the character can fill</p>
+</div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
             </section>
@@ -295,16 +332,24 @@
 
     <div class="tab-pane fade  tab-source-code" id="c-source">
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">export interface Char {
+    /** Unique character identifier */
     id: number;
+    /** Character name */
     name: string;
+    /** Relative path to character image */
     img: string;
+    /** Character description */
     desc: string;
+    /** List of roles the character can fill */
     roles: rolePair[];
 }
 
+/** Represents a role and associated priority of a character */
 export interface rolePair {
+    /** The roles name */
     role: string;
-    priority: string; // hacky, primary role value &#x3D; themepallete string
+    /** A ThemePallete string who represent the priority of the tole */
+    priority: string; // hacky, themepallete string should be inferred from priority
 }</code></pre>
     </div>
 </div>
