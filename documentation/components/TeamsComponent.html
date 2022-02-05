@@ -38,7 +38,7 @@
   <li>Components</li>
   <li
   >
-  TeamCardComponent</li>
+  TeamsComponent</li>
 </ol>
 
 <ul class="nav nav-tabs" role="tablist">
@@ -64,7 +64,7 @@
     <h3>File</h3>
 </p>
 <p class="comment">
-    <code>src/app/team-card/team-card.component.ts</code>
+    <code>src/app/teams/teams.component.ts</code>
 </p>
 
 
@@ -95,19 +95,19 @@
 
             <tr>
                 <td class="col-md-3">selector</td>
-                <td class="col-md-9"><code>app-team-card</code></td>
+                <td class="col-md-9"><code>app-teams</code></td>
             </tr>
 
             <tr>
                 <td class="col-md-3">styleUrls</td>
-                <td class="col-md-9"><code>./team-card.component.css</code></td>
+                <td class="col-md-9"><code>./teams.component.css</code></td>
             </tr>
 
 
 
             <tr>
                 <td class="col-md-3">templateUrl</td>
-                <td class="col-md-9"><code>./team-card.component.html</code></td>
+                <td class="col-md-9"><code>./teams.component.html</code></td>
             </tr>
 
 
@@ -177,7 +177,7 @@
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/team-card/team-card.component.ts:12</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/teams/teams.component.ts:12</a></div>
                             </td>
                         </tr>
 
@@ -215,7 +215,7 @@
             <tr>
                 <td class="col-md-4">
                     <div class="io-line">Defined in <a href="" data-line="16"
-                            class="link-to-prism">src/app/team-card/team-card.component.ts:16</a></div>
+                            class="link-to-prism">src/app/teams/teams.component.ts:16</a></div>
                 </td>
             </tr>
 
@@ -255,7 +255,7 @@
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/team-card/team-card.component.ts:11</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/teams/teams.component.ts:11</a></div>
                         </td>
                     </tr>
 
@@ -286,7 +286,7 @@
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/team-card/team-card.component.ts:12</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/teams/teams.component.ts:12</a></div>
                         </td>
                     </tr>
 
@@ -301,14 +301,14 @@
     <div class="tab-pane fade  tab-source-code" id="c-source">
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
 import teams from &#x27;../../assets/data/team_data/teams.json&#x27;
-import { Team } from &#x27;./team-card.service&#x27;;
+import { Team } from &#x27;./teams.service&#x27;;
 
 @Component({
-  selector: &#x27;app-team-card&#x27;,
-  templateUrl: &#x27;./team-card.component.html&#x27;,
-  styleUrls: [&#x27;./team-card.component.css&#x27;]
+  selector: &#x27;app-teams&#x27;,
+  templateUrl: &#x27;./teams.component.html&#x27;,
+  styleUrls: [&#x27;./teams.component.css&#x27;]
 })
-export class TeamCardComponent implements OnInit {
+export class TeamsComponent implements OnInit {
   panelOpenState &#x3D; false;
   teamList: Team[] &#x3D; teams
 
@@ -350,7 +350,7 @@ export class TeamCardComponent implements OnInit {
 
     <div class="tab-pane fade " id="c-styleData">
                 <p class="comment">
-                    <code>./team-card.component.css</code>
+                    <code>./teams.component.css</code>
                 </p>
                 <pre class="line-numbers"><code class="language-scss">.mat-form-field + .mat-form-field {
     margin-left: 8px;
@@ -400,9 +400,9 @@ export class TeamCardComponent implements OnInit {
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
         var COMPONENT_TEMPLATE = '<div><mat-accordion *ngFor="let team of teamList">    <mat-expansion-panel>      <mat-expansion-panel-header>        <mat-panel-title>          {{team.name}}        </mat-panel-title>        <mat-panel-description>          <mat-chip-list class="role list">              <mat-chip *ngFor="let chip of team.tags" selected color="accent">{{chip}}</mat-chip>          </mat-chip-list>        </mat-panel-description>      </mat-expansion-panel-header>      <mat-list class="inline-list">        <app-build-card [ID]="team.slot1" [teamID]="team.id"></app-build-card>        <app-build-card [ID]="team.slot2" [teamID]="team.id"></app-build-card>        <app-build-card [ID]="team.slot3" [teamID]="team.id"></app-build-card>        <app-build-card [ID]="team.slot4" [teamID]="team.id"></app-build-card>        <div class="vert">          <h1>&nbsp;Description</h1>          &nbsp;&nbsp;{{team.desc}}        </div>      </mat-list>    </mat-expansion-panel></mat-accordion></div>'
-    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArtiBuildComponent', 'selector': 'app-arti-build'},{'name': 'BuildCardComponent', 'selector': 'app-build-card'},{'name': 'CharacterCardComponent', 'selector': 'app-character-card'},{'name': 'CharactersComponent', 'selector': 'app-characters'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'TeamCardComponent', 'selector': 'app-team-card'}];
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArtiBuildComponent', 'selector': 'app-arti-build'},{'name': 'BuildCardComponent', 'selector': 'app-build-card'},{'name': 'CharacterCardComponent', 'selector': 'app-character-card'},{'name': 'CharactersComponent', 'selector': 'app-characters'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'TeamsComponent', 'selector': 'app-teams'}];
     var DIRECTIVES = [];
-    var ACTUAL_COMPONENT = {'name': 'TeamCardComponent'};
+    var ACTUAL_COMPONENT = {'name': 'TeamsComponent'};
 </script>
 <script src="../js/tree.js"></script>
 
@@ -447,7 +447,7 @@ export class TeamCardComponent implements OnInit {
        <script>
             var COMPODOC_CURRENT_PAGE_DEPTH = 1;
             var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
-            var COMPODOC_CURRENT_PAGE_URL = 'TeamCardComponent.html';
+            var COMPODOC_CURRENT_PAGE_URL = 'TeamsComponent.html';
             var MAX_SEARCH_RESULTS = 15;
        </script>
 

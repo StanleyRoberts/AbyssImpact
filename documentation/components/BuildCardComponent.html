@@ -476,7 +476,7 @@ export class BuildCardComponent implements OnInit {
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
         var COMPONENT_TEMPLATE = '<div><mat-card class="card">    <mat-card-header>      <mat-card-title>        <form [formGroup]="form">          <mat-form-field appearance="fill">              <mat-select [formControl]="selectedChar">              <mat-option [value]="option" *ngFor="let option of chars">{{ option.name }}</mat-option>              </mat-select>          </mat-form-field>        </form>      </mat-card-title>    </mat-card-header>    <img mat-card-image src="../../{{selectedChar.value.img}}">    <mat-card-content>      <p>        <app-arti-build [char]="selectedChar" [teamID]="teamId"></app-arti-build>      </p>    </mat-card-content></mat-card></div>'
-    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArtiBuildComponent', 'selector': 'app-arti-build'},{'name': 'BuildCardComponent', 'selector': 'app-build-card'},{'name': 'CharacterCardComponent', 'selector': 'app-character-card'},{'name': 'CharactersComponent', 'selector': 'app-characters'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'TeamCardComponent', 'selector': 'app-team-card'}];
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArtiBuildComponent', 'selector': 'app-arti-build'},{'name': 'BuildCardComponent', 'selector': 'app-build-card'},{'name': 'CharacterCardComponent', 'selector': 'app-character-card'},{'name': 'CharactersComponent', 'selector': 'app-characters'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'TeamsComponent', 'selector': 'app-teams'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'BuildCardComponent'};
 </script>
