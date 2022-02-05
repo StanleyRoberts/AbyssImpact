@@ -1,8 +1,10 @@
 .card {
-    max-width: 400px;
+    width: 310px;
+    height: 500px;
+    display:grid;
   }
-  
-  .header-image {
-    background-image: url('../../assets/favicon.png');
-    background-size: cover;
-  }
+
+.header-image {
+  background-image: url('../../assets/favicon.png');
+  background-size: cover;
+}

@@ -1,4 +1,10 @@
 ul > li {
-    display: inline-block;
+    display: inline-flex;
     padding: 1%;
+}
+
+::ng-deep .mat-button-toggle-group {
+    border:0px;
+    padding-top: 2%;
+    padding-left: 2%;
 }

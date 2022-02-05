@@ -1,0 +1,12 @@
+<div class="legendary">
+    <div style="font-size: 2em;">★:</div> <img src="../../{{wep1.img}}" class="icon"> {{wep1.name}}
+</div>
+<div class="epic">
+    <div style="font-size: 2em;">★:</div> <img src="../../{{wep2.img}}" class="icon"> {{wep2.name}}
+</div>
+<div class="common">
+    <mat-list *ngFor="let art of arti">
+    <img src="../../{{art.img}}" class="icon"> <b class="cent"><br>{{art.name}}</b>
+    </mat-list>
+    {{map.artifactStat}}
+</div>
