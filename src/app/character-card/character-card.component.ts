@@ -20,7 +20,4 @@ export class CharacterCardComponent implements OnInit {
     this.addCharacter = new FormControl((localStorage.getItem(this.character.id.toString()))==='true')
     this.addCharacter.valueChanges.subscribe(x=>{localStorage.setItem(this.character.id.toString(), x)})
   }
-  cookieUpdate(x: string){
-    
-  }
 }
