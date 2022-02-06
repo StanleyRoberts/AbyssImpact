@@ -12,17 +12,16 @@ import { LOCAL_STORAGE, StorageService } from 'ngx-webstorage-service';
 })
 export class CharacterCardComponent implements OnInit {
 
-  loaded: boolean = false;
-  addCharacter = new FormControl(false); //Creates a from that stores if the character is added
+  addCharacter!: FormControl;
   @Input('character') character!: Char;
   cookieVal:any;
 
   constructor() {}
 
   ngOnInit(): void {
-    this.addCharacter.valueChanges.subscribe(x=>{this.cookieUpdate(x)})
-    this.cookieVal = localStorage.getItem(this.character.id.toString());
-    this.loaded = true;
+    this.addCharacter = new FormControl(localStorage.getItem(this.character.id.toString())); //Creates a from that stores if the character is added
+    this.addCharacter.valueChanges.subscribe(x=>{this.cookieUpdate(x)}) //If the user clicks to add or remove a character, the cookie gets uppdated
+    this.cookieVal = localStorage.getItem(this.character.id.toString()); //Grabs if the user has the character or not from the cookie
   }
   cookieUpdate(x: string){
     localStorage.setItem(this.character.id.toString(), x)

@@ -20,7 +20,6 @@ export class CharactersComponent implements OnInit {
   filter: FormControl;
   filter$: Observable<Array<string>>;
   filteredChars$: Observable<Char[]>;
-  
 
   constructor() { 
     this.chars$ = from(this.chars);
