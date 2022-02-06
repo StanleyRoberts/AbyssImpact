@@ -14,11 +14,13 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './home/home.component';
 import { TeamsModule } from './teams/teams.module';
 import { CharactersModule } from './characters/characters.module';
+import { CookiesComponent } from './cookies/cookies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    CookiesComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,7 @@ import { FormControl } from '@angular/forms';
 import { combineLatest, Observable, from, startWith } from 'rxjs';
 import { map } from 'rxjs/operators';
 import characters from '../../assets/data/character_data/characters.json'
+import { MatCheckbox } from '@angular/material/checkbox';
 
 @Component({
   selector: 'app-characters',
