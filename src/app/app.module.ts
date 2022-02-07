@@ -14,11 +14,12 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './home/home.component';
 import { TeamsModule } from './teams/teams.module';
 import { CharactersModule } from './characters/characters.module';
+import { AbyssteamsModule } from './abyssteams/abyssteams.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +29,7 @@ import { CharactersModule } from './characters/characters.module';
 
     TeamsModule,
     CharactersModule,
+    AbyssteamsModule,
 
     MatSidenavModule,
     MatToolbarModule,
