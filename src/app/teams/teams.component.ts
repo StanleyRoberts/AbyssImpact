@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import teams from '../../assets/data/team_data/teams.json'
+import teams from '../../assets/data/team_data/teams.json';
 import { Team } from './teams.service';
 
 @Component({

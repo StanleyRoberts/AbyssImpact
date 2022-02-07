@@ -2,7 +2,6 @@ import { FormControl } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core';
 import { Char } from './character-card.service';
-import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-character-card',
