@@ -26,6 +26,7 @@ export class AbyssteamsComponent implements OnInit {
           if (pot_team) { // TODO verify team is owned
             this.team_list.add(this.teamStringify([team.id].concat(pot_team)))}}}}}
           }
+    // TODO calculate team combos and then Stringify
   }
 
    // Convert array of id's to array of img links + team name

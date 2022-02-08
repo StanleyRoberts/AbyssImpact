@@ -300,7 +300,7 @@
 
     <div class="tab-pane fade  tab-source-code" id="c-source">
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
-import teams from &#x27;../../assets/data/team_data/teams.json&#x27;
+import teams from &#x27;../../assets/data/team_data/teams.json&#x27;;
 import { Team } from &#x27;./teams.service&#x27;;
 
 @Component({
@@ -400,7 +400,7 @@ export class TeamsComponent implements OnInit {
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
         var COMPONENT_TEMPLATE = '<div><mat-accordion *ngFor="let team of teamList">    <mat-expansion-panel>      <mat-expansion-panel-header>        <mat-panel-title>          {{team.name}}        </mat-panel-title>        <mat-panel-description>          <mat-chip-list class="role list">              <mat-chip *ngFor="let chip of team.tags" selected color="accent">{{chip}}</mat-chip>          </mat-chip-list>        </mat-panel-description>      </mat-expansion-panel-header>      <mat-list class="inline-list">        <app-build-card [ID]="team.slot1" [teamID]="team.id"></app-build-card>        <app-build-card [ID]="team.slot2" [teamID]="team.id"></app-build-card>        <app-build-card [ID]="team.slot3" [teamID]="team.id"></app-build-card>        <app-build-card [ID]="team.slot4" [teamID]="team.id"></app-build-card>        <div class="vert">          <h1>&nbsp;Description</h1>          &nbsp;&nbsp;{{team.desc}}        </div>      </mat-list>    </mat-expansion-panel></mat-accordion></div>'
-    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArtiBuildComponent', 'selector': 'app-arti-build'},{'name': 'BuildCardComponent', 'selector': 'app-build-card'},{'name': 'CharacterCardComponent', 'selector': 'app-character-card'},{'name': 'CharactersComponent', 'selector': 'app-characters'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'TeamsComponent', 'selector': 'app-teams'}];
+    var COMPONENTS = [{'name': 'AbyssteamsComponent', 'selector': 'app-abyssteams'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArtiBuildComponent', 'selector': 'app-arti-build'},{'name': 'BuildCardComponent', 'selector': 'app-build-card'},{'name': 'CharacterCardComponent', 'selector': 'app-character-card'},{'name': 'CharactersComponent', 'selector': 'app-characters'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'TeamsComponent', 'selector': 'app-teams'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'TeamsComponent'};
 </script>
