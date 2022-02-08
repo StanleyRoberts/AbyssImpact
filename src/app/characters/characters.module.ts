@@ -1,3 +1,4 @@
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -9,6 +10,7 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [CharacterCardComponent, CharactersComponent],
@@ -19,6 +21,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatButtonToggleModule,
     MatChipsModule,
     MatButtonModule,
+    MatCheckboxModule,
+    FormsModule,
   ],
   providers: [CharacterCardComponent]
 })

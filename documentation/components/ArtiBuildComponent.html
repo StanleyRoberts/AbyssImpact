@@ -321,8 +321,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="32"
-                            class="link-to-prism">src/app/arti-build/arti-build.component.ts:32</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="33"
+                            class="link-to-prism">src/app/arti-build/arti-build.component.ts:33</a></div>
                 </td>
             </tr>
 
@@ -516,6 +516,7 @@ export class ArtiBuildComponent implements OnInit {
     this.update(this.char.value)
 
     this.char.valueChanges.subscribe(x&#x3D;&gt;{this.update(x)})
+    
   }
   update(cur: Char) {
     this.map &#x3D; mapping.filter(ele &#x3D;&gt; {return ele.charID&#x3D;&#x3D;cur.id &amp;&amp; ele.teamID&#x3D;&#x3D;this.teamId})[0]

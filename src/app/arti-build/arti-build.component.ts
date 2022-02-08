@@ -28,6 +28,7 @@ export class ArtiBuildComponent implements OnInit {
     this.update(this.char.value)
 
     this.char.valueChanges.subscribe(x=>{this.update(x)})
+    
   }
   update(cur: Char) {
     this.map = mapping.filter(ele => {return ele.charID==cur.id && ele.teamID==this.teamId})[0]

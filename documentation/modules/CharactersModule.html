@@ -149,7 +149,8 @@
 
 
     <div class="tab-pane fade  tab-source-code" id="c-source">
-        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { MatCheckboxModule } from &#x27;@angular/material/checkbox&#x27;;
+import { NgModule } from &#x27;@angular/core&#x27;;
 import { CommonModule } from &#x27;@angular/common&#x27;;
 
 import { CharactersComponent } from &#x27;./characters.component&#x27;;
@@ -160,6 +161,7 @@ import { MatButtonToggleModule } from &#x27;@angular/material/button-toggle&#x27
 import { ReactiveFormsModule } from &#x27;@angular/forms&#x27;;
 import { MatCardModule } from &#x27;@angular/material/card&#x27;;
 import { MatButtonModule } from &#x27;@angular/material/button&#x27;;
+import { FormsModule } from &#x27;@angular/forms&#x27;;
 
 @NgModule({
   declarations: [CharacterCardComponent, CharactersComponent],
@@ -170,6 +172,8 @@ import { MatButtonModule } from &#x27;@angular/material/button&#x27;;
     MatButtonToggleModule,
     MatChipsModule,
     MatButtonModule,
+    MatCheckboxModule,
+    FormsModule,
   ],
   providers: [CharacterCardComponent]
 })
