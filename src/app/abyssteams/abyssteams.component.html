@@ -1,1 +1,6 @@
-<p>abyssteams works!</p>
+<li *ngFor="let item of team_list">
+    {{item.teamName}}
+    <div *ngFor="let inner of item.linkArray">
+        <img src="../../{{inner}}">
+    </div>>
+</li>>

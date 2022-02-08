@@ -1,3 +1,14 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ArtiBuildService {
+
+  constructor() { }
+}
+
+
 export interface Artifact {
     id: number;
     name: string;

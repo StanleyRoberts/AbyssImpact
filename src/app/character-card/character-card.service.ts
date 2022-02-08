@@ -1,3 +1,13 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class CharacterCardService {
+
+  constructor() { }
+}
+
 export interface Char {
     id: number;
     name: string;
