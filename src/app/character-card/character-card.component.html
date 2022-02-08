@@ -23,9 +23,10 @@
   </mat-card-content>
   
   <mat-card-actions>
-
-    <mat-checkbox [formControl]="addCharacter">Add {{addCharacter.value}}</mat-checkbox> <!--Checkbox for storing characters in cookies-->
-
+    <!--Checkbox for storing characters in cookies-->
+    <mat-checkbox [formControl]="addCharacter">Add {{addCharacter.value}}</mat-checkbox>
+    
+    <!--Info button-->
     <button mat-button style="float:right">
       <span class="material-icons">info</span>Info
     </button>
